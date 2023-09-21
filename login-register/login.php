@@ -28,7 +28,7 @@ if (isset($_SESSION["user"])) {
                 if (password_verify($password, $user["password"])) {
                     session_start();
                     $_SESSION["user"] = "yes";
-                    header("Location:http://localhost:3000/Services");
+                    header("Location:https://hrvcqp-3000.csb.app");
                     die();
                 }else{
                     echo "<div class='alert alert-danger'>Password does not match</div>";
