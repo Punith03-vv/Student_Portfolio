@@ -155,6 +155,7 @@ input{
 .about{
   height: 100vh;
   width: 100%;
+  display: flex;
 }
 .gap{
   padding-top: 18vh;
@@ -167,6 +168,16 @@ input{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   word-spacing: 3px;
 }
+.secondimage{
+    background-image: url("https://xperteducationinstitute.co.in/wp-content/uploads/2016/09/about-us.png");
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 40%;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    background-size: cover;
+    border-radius: 0em 5em 5em 0em;
+  }
 .about h1{
   padding-top: 6vh;
   padding-left: 20vw;
