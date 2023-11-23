@@ -31,6 +31,7 @@ const Body = () => {
             <h1>ABOUT US</h1>
             <h2>Web development is a fast-paced, challenging career centered on creative problem-solving and continuous innovation. And I have always been fascinated and inspired by photography. I can’t even remember the first time I fell in love with it. The way some photographers manage to capture life and beauty in a photo is highly admirable and marvelous. For me, good photography is about capturing a moment in a way that forces us to stop for a second. When you look at a good photo, you forget all your thoughts for a moment and are filled with awe.</h2>
           </div>
+          <div className='secondimage'></div>
         </div>
         <div id="Brand">
           <div className="space"></div>
